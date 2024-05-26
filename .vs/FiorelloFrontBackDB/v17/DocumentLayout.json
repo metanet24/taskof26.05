@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FX706HE\\Desktop\\FiorelloAddition(6)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71D34971-4778-43D3-9AB1-30E3EA8B4CCC}|FiorelloFrontBackDB\\FiorelloFrontBackDB.csproj|c:\\users\\fx706he\\desktop\\fiorelloaddition(6)\\fiorellofrontbackdb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71D34971-4778-43D3-9AB1-30E3EA8B4CCC}|FiorelloFrontBackDB\\FiorelloFrontBackDB.csproj|solutionrelative:fiorellofrontbackdb\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D34971-4778-43D3-9AB1-30E3EA8B4CCC}|FiorelloFrontBackDB\\FiorelloFrontBackDB.csproj|c:\\users\\fx706he\\desktop\\fiorelloaddition(6)\\fiorellofrontbackdb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D34971-4778-43D3-9AB1-30E3EA8B4CCC}|FiorelloFrontBackDB\\FiorelloFrontBackDB.csproj|solutionrelative:fiorellofrontbackdb\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FX706HE\\Desktop\\FiorelloAddition(6)\\FiorelloFrontBackDB\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "FiorelloFrontBackDB\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FX706HE\\Desktop\\FiorelloAddition(6)\\FiorelloFrontBackDB\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "FiorelloFrontBackDB\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwDYAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T17:21:10.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\FX706HE\\Desktop\\FiorelloAddition(6)\\FiorelloFrontBackDB\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "FiorelloFrontBackDB\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\FX706HE\\Desktop\\FiorelloAddition(6)\\FiorelloFrontBackDB\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "FiorelloFrontBackDB\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:38:25.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

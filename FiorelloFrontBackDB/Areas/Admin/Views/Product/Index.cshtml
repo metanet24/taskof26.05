@@ -1,0 +1,61 @@
+﻿@model List<ProductVM>
+
+<div class="container">
+    <div class="create-product">
+        <a asp-action="Create" class="btn btn-success text-white mb-3 mx-3">Create</a>
+    </div>
+    <div class="table-responsive table--no-card m-b-30">
+        <table class="table table-borderless table-striped table-earning">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><img src="~/img/@item.Image" style="border: 3px double black" /></td>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>@item.Category</td>
+                        <td>@item.Price</td>
+                        <td>
+                            <a class="btn btn-info text-white" asp-route-id="@item.Id" asp-action="Detail">Info</a>
+                            <a class="btn btn-warning text-white" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            <form asp-action="Delete" asp-route-id="@item.Id" class="d-inline" method="post">
+                                <button type="submit" class="btn btn-danger text-white">Delete</button>
+                            </form>
+
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="paginate-area d-flex justify-content-center">
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item @(ViewBag.currentPage <= 1 ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.currentPage - 1)">Previous</a>
+                </li>
+                @for (int i = 1; i <= ViewBag.pageCount; i++)
+                {
+                    <li class="page-item @(i == ViewBag.currentPage ? "disabled" : "")"><a class="page-link @(i == ViewBag.currentPage ? "paginate-active" : "")" asp-action="Index" asp-route-page="@i">@i</a></li>
+                }
+                <li class="page-item  @(ViewBag.currentPage == ViewBag.pageCount ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.currentPage+1)">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+

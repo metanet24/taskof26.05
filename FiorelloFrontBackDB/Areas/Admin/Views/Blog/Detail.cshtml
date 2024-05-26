@@ -1,0 +1,23 @@
+﻿@model BlogDetailVM
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Create date</th>
+                <th scope="col">Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Title</td>
+                <td>@Model.Description</td>
+                <td>@Model.CreateDate</td>
+                <td><img src="~/img/@Model.Image" class="img-fluid" alt="" style="width:300px;height:200px"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

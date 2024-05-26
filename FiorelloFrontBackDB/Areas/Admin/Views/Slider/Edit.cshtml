@@ -1,0 +1,28 @@
+﻿@model SliderEditVM
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <strong>Edit</strong>
+        </div>
+        <div class="card-body card-block">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                <div>
+                    <img src="~/img/@Model.Image" alt="Alternate Text" style="border: 3px double black"/>
+                </div>    
+                <div class="form-group mt-2">
+                    <label class=" form-control-label">Enter slider image to change</label>
+                    <input asp-for="NewImage" class="form-control">
+                    <span class="text-danger" asp-validation-for="NewImage"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Submit
+                </button>
+                <a type="reset" asp-action="Index" class="btn btn-danger btn-sm">
+                    <i class="fa fa-ban"></i> Reset
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
